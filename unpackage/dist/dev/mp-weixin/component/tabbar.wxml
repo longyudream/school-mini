@@ -1,0 +1,1 @@
+<view class="cu-bar tabbar tobottom  bg-blue light"><view class="action text-green"><view class="cuIcon-homefill"></view>吃啥</view><view class="action text-gray add-action"><button class="cu-btn cuIcon-add bg-green shadow"></button>发布</view><view class="action text-gray"><view class="cuIcon-my"><view class="cu-tag badge"></view></view>我的</view></view>

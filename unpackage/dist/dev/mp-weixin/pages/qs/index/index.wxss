@@ -1,0 +1,12 @@
+
+page {
+	color: #fbbd08;
+	background-color: #fef2ced2;
+}
+.bottom-2>button {
+	margin: 80rpx;
+	font-size: 40rpx;
+	width: 250rpx;
+	height: 250rpx;
+}
+
