@@ -4,7 +4,8 @@
     "pages/qs/index/index",
     "pages/qs/bwq",
     "pages/qs/wqq",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/qs/order_detail"
   ],
   "subPackages": [],
   "window": {
@@ -17,6 +18,5 @@
     "list": "/component/list",
     "tabbar": "/component/tabbar",
     "cu-custom": "/colorui/components/cu-custom"
-  },
-  "sitemapLocation": "sitemap98.json"
+  }
 }

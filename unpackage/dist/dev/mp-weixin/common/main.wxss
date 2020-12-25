@@ -3706,12 +3706,40 @@ scroll-view.cu-steps .cu-item {
 .lines-white {
 	color: #ffffff;
 }
+/* 自定义样式 */
 /* 置底*/
 .tobottom {
 		margin-bottom: 0;
 		width: 100%;
 		position: fixed;
 		bottom: 0;
+}
+/* 放在中间区域的块 */
+.concent{
+		/* 外边距 */
+		margin-top: 30rpx;
+		/* 查出限制的部分直接隐藏不现实 */
+		overflow: hidden;
+		/* 左右边距 */
+		margin-right: 60rpx;
+		margin-left: 60rpx;
+		/* 高度 */
+		height: 100px;
+		/* 添加圆角 */
+		-webkit-border-radius: 40rpx;
+		        border-radius: 40rpx;
+		/* 内容居中 */
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center
+}
+.concent>view>.cu-item{
+		
+		-webkit-transition: all .6s ease-in-out 0s;
+		
+		transition: all .6s ease-in-out 0s;
+		-webkit-transform: translateX(0rpx);
+		        transform: translateX(0rpx)
 }
 @-webkit-keyframes cuIcon-spin {
 0% {

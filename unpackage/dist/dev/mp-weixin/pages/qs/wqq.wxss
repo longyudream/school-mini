@@ -1,0 +1,17 @@
+
+.test {
+	background-color: #ffffff;
+	border: #DD514C;
+	height: 100px;
+	margin-top: 30rpx;
+	margin-left: 150rpx;
+	margin-right: 150rpx;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	text-align: center;
+	overflow: hidden;
+}
+.text {
+	font-size: 35rpx;
+}
+

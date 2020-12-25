@@ -1,5 +1,5 @@
 {
   "navigationBarTitleText": "赚点小钱",
-  "enablePullDownRefresh": false,
+  "enablePullDownRefresh": true,
   "usingComponents": {}
 }

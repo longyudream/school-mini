@@ -3912,12 +3912,35 @@ scroll-view.cu-steps .cu-item {
 }
 
 
+/* 自定义样式 */
 
 /* 置底*/
-
 .tobottom {
 		margin-bottom: 0;
 		width: 100%;
 		position: fixed;
 		bottom: 0;	
 	}
+	
+	/* 放在中间区域的块 */
+	.concent{
+		/* 外边距 */
+		margin-top: 30upx;
+		/* 查出限制的部分直接隐藏不现实 */
+		overflow: hidden;
+		/* 左右边距 */
+		margin-right: 60upx;
+		margin-left: 60upx;
+		/* 高度 */
+		height: 100px;
+		/* 添加圆角 */
+		border-radius: 40upx;
+		/* 内容居中 */
+		justify-content: center
+	}
+	.concent>view>.cu-item{
+		
+		transition: all .6s ease-in-out 0s;
+		transform: translateX(0upx)
+	}
+	
